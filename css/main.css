@@ -6,6 +6,7 @@ html {
   height: 300px;
   margin: 50px auto;
   width: 300px;
+  position: relative;
   align-items: center;
   background: transparent url("../images/clock-face.svg") no-repeat center center;
 }
@@ -13,7 +14,7 @@ html {
 .center {
   width: 28px;
   transform: translateX(-50%) translateY(-50%);
-  position: relative;
+  position: absolute;;
   left: 50%;
   top: 50%;
 }
@@ -21,8 +22,8 @@ html {
 .hand {
   width: 14px;
   position: absolute;
-  bottom: 71%;
-  left: 49%;
+  bottom: 50%;
+  left: 48%;
 }
 
 @keyframes turn {
