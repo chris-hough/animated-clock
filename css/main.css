@@ -6,8 +6,7 @@ html {
   height: 300px;
   margin: 50px auto;
   width: 300px;
-
- align-items: center;
+  align-items: center;
   background: transparent url("../images/clock-face.svg") no-repeat center center;
 }
 
@@ -27,6 +26,7 @@ html {
 }
 
 @keyframes turn {
+
   0% {
     transform: rotate(0deg);
   }
